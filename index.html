@@ -1,15 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <title>Mi sitio web</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Mi sitio web</h1>
+      <h1>Mi sitio web</h1>
     </header>
-    
-</body>
+    <nav>
+      <ul>
+        <li><a href="#section1">Sobre mi</a></li>
+        <li><a href="#section2">Pasatiempos</a></li>
+        <li><a href="#section3">Deportes</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="section1" class="section-container">
+        <div class="content">
+          <h3>Amed <span>Pereda</span></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            impedit! Placeat voluptatum veniam laboriosam mollitia! Et earum,
+            inventore adipisci ex ad id eos? Explicabo, non? Doloremque eos
+            corporis fugiat itaque!
+          </p>
+        </div>
+
+        <img
+          src="https://img.freepik.com/foto-gratis/retrato-3d-empresario_23-2150793877.jpg?size=626&ext=jpg&ga=GA1.1.858296748.1689626854&semt=ais"
+          alt=""
+          class="avatar" />
+      </section>
+      <section id="section2" class="section-container">
+        <h2 class="title">Pasatiempos</h2>
+        <div class="pasatiempos-contanier">
+          <img
+            src="./assets/img/pasatiempos/programación.jpg"
+            alt=""
+            width="300" />
+          <img src="./assets/img/pasatiempos/rubik.jpg" alt="" width="300" />
+          <img
+            src="https://img.freepik.com/foto-gratis/hombre-guapo-guitarra-sobre-fondo-blanco_1368-4420.jpg?size=626&ext=jpg&ga=GA1.1.858296748.1689626854&semt=ais"
+            alt=""
+            width="300" />
+          <img
+            src="https://img.freepik.com/foto-gratis/hombre-viendo-servicio-streaming-su-telefono_23-2149047406.jpg?w=996&t=st=1700356358~exp=1700356958~hmac=23d2ece44af49a7a585491680af74f04bcf80843ca16dce1869df8792a8d6220"
+            alt=""
+            width="300" />
+        </div>
+      </section>
+      <section id="section3" class="section-container">
+        <h2 class="title">Deportes</h2>
+        <div class="deportes-container">
+          <img
+            src="./assets/img/deportes/ciclismo.jpg"
+            alt=""
+            width="400"
+            class="dep1" />
+          <img
+            src="./assets/img/deportes/futbol.jpg"
+            alt=""
+            width="400"
+            class="dep2" />
+          <img
+            src="./assets/img/deportes/voleibol.jpg"
+            alt=""
+            width="400"
+            class="dep3" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="content-footer">
+        <div class="box inf">
+          <p class="logo">Amed <span>Pereda</span></p>
+          <div class="address">
+            <p>
+              <i class="fa-solid fa-location-dot"></i> Santiago de chuco - Perú
+            </p>
+            <p>
+              <a target="_blank" href="mailto:intiprda@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                intiprda@gmail.com
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="box social" id="social_media">
+          <h3>Social</h3>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/latinamericansafety/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://web.facebook.com/LatinAmericanSafetyTIC">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <p class="creditos">&copy, 2023 Amed Pereda</p>
+    </footer>
+  </body>
 </html>
